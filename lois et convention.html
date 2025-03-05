@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css">
     <title>Lois & Convention</title>
 </head>
-<body>
-    <div class="container mx-auto px-6">
+<body class="bg-[#F2F2F2]">
+    <div class="container mx-auto">
         <!-- Titre de la section -->
         <!-- <h1 class="text-3xl font-bold text-center mb-6"> </h1> -->
       
-        <header class="bg-gray-300 h-100 flex justify-center items-center mb-8">
-          <h1 class="mx-auto max-w-3xl text-left
-            text-5xl md:text-5xl font-bold leading-tight mb-6
+        <header class="bg-gray-300 h-150 md:h-100 pl-5 flex justify-center items-center mb-8">
+          <h1 class="mx-auto max-w-5xl text-left
+            text-5xl md:text-6xl font-bold leading-tight mb-6
             bg-gradient-to-r from-white via-yellow-400 to-white
             bg-clip-text text-transparent
             transition-all duration-1000 ease-in-out">
@@ -27,14 +27,23 @@
           </h1>
         </header>
       
+        
         <!-- Introduction -->
-        <div class="border-none bg-white p-6 rounded-lg shadow-lg mb-6">
-          <p class="text-lg mb-6 font-bold text-4xl text-black">
-            Découvrez les lois et conventions internationales essentielles qui 
-            protègent les droits des femmes dans le monde entier. Ces instruments juridiques assurent 
-            l'égalité et la protection des femmes dans divers domaines.
-          </p>
-        </div>
+        <section class="mr-2.5 md:mr-0 md:grid justify-self-end border-r-8 border-yellow-400 md:mr-10 md:mt-[-100px] mb-8 ">
+          <div class="bg-white w-90 h-110 md:w-120 h-90 p-6 shadow-lg  ">
+            <div class="w-20 h-1 bg-black mb-5 transition-all duration-1000 delay-300"></div>
+            <p class="text-5xl mb-6 font-bold text-4xl text-black">
+              Protéger les plus vulnérables
+            </p>
+            <p class="text-gray-700 text-lg">
+              <!-- Les lois et conventions internationales sont des outils 
+              essentiels pour protéger les droits des femmes et promouvoir l'égal -->
+              Découvrez les <span class="font-bold">lois et conventions</span> internationales essentielles qui 
+              protègent les droits des femmes dans le monde entier. Ces instruments juridiques assurent 
+              <span class="font-bold">l'égalité et la protection</span> des femmes dans divers domaines. 
+            </p>
+          </div>
+        </section>
 
 
         <!-- Sections des catégories de lois -->
