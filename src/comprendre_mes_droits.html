@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>comprendre mes droits</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
@@ -10,16 +11,16 @@
   <body>
     <header>
       <nav
-        class="bg-black h-24 text-white flex justify-between items-center px-5"
+        class="bg-black h-24 text-white flex justify-between items-center lg:px-5"
       >
         <img src="" alt="AVIF" />
-        <ul class="flex gap-5">
+        <ul class="flex lg:gap-5">
           <li><a href="#droit">Comprendre mes droits</a></li>
           <li><a href="#">Lois et conventions</a></li>
           <li><a href="#">Outils pour agir</a></li>
         </ul>
         <button
-          class="bg-yellow-100 hover:bg-green-700 text-black font-bold py-2 px-4"
+          class="bg-yellow-100 hover:bg-green-700 hover:text-white text-black lg:font-bold lg:py-2 lg:px-4"
         >
           FAIRE UN DON
         </button>
@@ -29,21 +30,21 @@
       <section
         class="acueil bg-[url(/src/images/img/femme_abobo.webp)] h-screen w-full bg-no-repeat bg-cover flex items-center"
       >
-        <p class="text-9xl font-bold text-blue-400">
+        <p class="lg:text-9xl text-4xl font-bold text-black">
           Le 8 mars, <br />
           Tout pour la femme, <br />
           Tous pour la femme <br />
           AVIF
         </p>
       </section>
-      <section class="bg-purple-100 h-screen pt-10" id="droit">
+      <section class="bg-purple-100 h-auto pt-10" id="droit">
         <h1
-          class="text-center font-bold py-2 text-4xl bg-purple-200 mx-105 mb-5"
+          class="text-center font-bold py-2 text-4xl bg-purple-200 lg:mx-105 mb-5"
         >
           COMPRENDRE LES DROITS DE LA FEMME !
         </h1>
-        <div class="grid grid-cols-2 gap-4">
-          <div class="h-[500px] p-10 bg-white">
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 h-auto w-full">
+          <div class="lg:h-[500px] h-auto p-10 bg-white">
             <article class="bg-white">
               <h2 class="text-2xl font-bold">
                 Qu'est-ce que les droits de la femme?
@@ -90,10 +91,9 @@
               </p>
             </article>
           </div>
-          <div>
-            <iframe
-              width="836"
-              height="500"
+          <div class="flex justify-center">
+            <iframe class="lg:w-[836px] lg:h-[500px] w-auto h-auto"
+            
               src="https://www.youtube.com/embed/NF6U_Nqvb60"
               title="Afrique • L&#39;Afrique et l&#39;égalité des Droits des Femmes"
               frameborder="0"
@@ -104,14 +104,14 @@
           </div>
         </div>
       </section>
-      <section class="bg-purple-100 h-screen pt-10">
+      <section class="bg-purple-100  pt-10">
         <h1
-          class="text-center font-bold py-2 text-4xl bg-purple-200 mx-105 mb-5"
+          class="text-center font-bold py-2 text-4xl bg-purple-200 lg:mx-105 mx-auto mb-5"
         >
           QUELQUES DROITS DE LA FEMME
         </h1>
-        <div class="grid grid-cols-2 gap-4">
-          <div class="h-auto p-10 bg-white">
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="h-auto lg:p-10 bg-white">
             <article class="bg-white">
               <h2 class="text-2xl font-bold">
                 Droit de vote et de participation politique
@@ -168,7 +168,7 @@
             </article>
           </div>
 
-          <div class="h-auto p-10 bg-white items-center">
+          <div class=" lg:p-10 bg-white items-center">
             <article class="bg-white">
               <h2 class="text-2xl font-bold">Droit de circuler librement</h2>
               <p>
@@ -216,10 +216,9 @@
       </section>
     </main>
     <footer>
-      <p class="text-center text-gray-500">
+      <p class="text-center text-yellow-700 lg:mt-[1Ovh] md:mt-0 bg-black p-5 text-2xl">
         &copy; 2025 <a href="#">by GBOKO & YOUNOUSS</a>. Tous droits reservés.
       </p>
     </footer>
-    <script src="./script/script.js"></script>
-  </body>
+s  </body>
 </html>
