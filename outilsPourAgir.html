@@ -1,51 +1,339 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Outils pour Agir</title>
-  </head>
-  <body>
-    
-    <section class="bg-gray-100 p-6">
-      <h2 class="text-2xl font-bold mb-4">Journée mondiale de la femme</h2>
-      <p class="mb-4">
-        La Journée mondiale de la femme, célébrée le 8 mars, est une occasion de reconnaître les réalisations des femmes et de promouvoir l'égalité des sexes. 
-        C'est une journée pour réfléchir sur les progrès réalisés, appeler au changement et célébrer les actes de courage et de détermination des femmes ordinaires 
-        qui ont joué un rôle extraordinaire dans l'histoire de leurs pays et de leurs communautés.
-      </p>
-      <a href="https://www.un.org/fr/observances/womens-day" class="text-blue-500 underline">En savoir plus</a>
+</head>
+
+<body class="font-sans">
+
+    <section>
+        <!-- Section d'introduction -->
+        <div class="relative h-screen flex items-center justify-center text-center text-white overflow-hidden">
+
+            <!-- Bannière inspirante -->
+            <img src="./images/solidarite.jpg"
+                alt="Bannière inspirante" class="absolute inset-0 w-full h-full object-cover z-0">
+            <div class="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
+
+            <!-- Contenu texte -->
+            <div class="relative z-20 px-4">
+                <!-- Titre principal -->
+                <h1 class="text-yellow-400 text-5xl md:text-6xl font-bold mb-4">
+                    Agir et Défendre : Ensemble pour les Droits des Femmes
+                </h1>
+
+                <!-- Sous-titre -->
+                <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+                    Chaque action compte. Découvrez comment vous pouvez faire la différence dès aujourd’hui !
+                </p>
+
+                <!-- Bouton d'action -->
+                <a href="#agir"
+                    class="inline-block bg-yellow-400 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-yellow-600 transition duration-300">
+                    Je veux agir
+                </a>
+            </div>
+
+            <!-- Citation inspirante (optionnel) -->
+            <div class="absolute bottom-8 left-0 right-0 text-center z-20">
+                <blockquote class="text-lg italic">
+                    "La liberté ne s’octroie pas, elle se conquiert." — Simone de Beauvoir
+                </blockquote>
+            </div>
+
+        </div>
     </section>
-    
-    <section class="bg-white p-6 mt-6">
-      <h2 class="text-2xl font-bold mb-4">Outils pour Agir dans la Défense des Droits de la Femme</h2>
-      <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
-        <div class="p-4 border rounded shadow">
-          <a href="https://www.amnesty.org/fr/get-involved/" class="text-blue-500 underline">Amnesty International</a>
-          <p>Rejoignez des campagnes pour les droits des femmes.</p>
+
+    <div id="deffense_des_droits" class="">
+        <section class="container mx-auto px-4 py-8 space-y-8">
+
+            <!-- Paragraphe d'introduction -->
+            <section class="text-center">
+                <h1 class="text-4xl font-bold text-yellow-400 mb-4">Pourquoi défendre les droits des femmes ?</h1>
+                <p class="text-black text-lg max-w-2xl mx-auto font-bold">
+                    Les inégalités persistent et les violences sont encore trop fréquentes. Nous avons tous un rôle à
+                    jouer
+                    pour construire une société plus juste et équitable.
+                </p>
+            </section>
+
+            <!-- Chiffres clés -->
+            <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Bloc 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="">
+                        <img src="./images/abus.jpg" alt="" class="w-[95%] h-90 rounded-lg mx-auto">
+                    </div>
+                    <h3 class="text-4xl font-bold text-black mt-4">1 Sur 3</h3>
+                    <p class="text-black mt-4">Dans le monde, 1 femme sur 3 a été victime de violence physique ou
+                        sexuelle – le plus souvent par un partenaire intime. Lorsque l'on prend en compte le harcèlement
+                        sexuel, ce chiffre est encore plus élevé.</p>
+                </div>
+
+                <!-- Bloc 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="">
+                        <img src="./images/jeune depute.jpg" alt="" class="w-[95%] h-90 rounded-lg mx-auto">
+                    </div>
+                    <h3 class="text-4xl font-bold text-black mt-4">Pour un avenir égalitaire</h3>
+                    <p class="text-black mt-4">Seulement 25% des parlementaires dans le monde sont des femmes, reflétant
+                        une sous-représentation persistante des femmes dans les sphères de décision politique. </p>
+                </div>
+
+                <!-- Bloc 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="">
+                        <img src="./images/zero violence.jpg" alt="" class="w-[95%] h-90 rounded-lg mx-auto">
+                    </div>
+                    <h3 class="text-4xl font-bold text-black mt-4">Non à la Violence</h3>
+                    <p class="text-black mt-4">Nous ne devons tolérer aucune forme de violence, qu'elle soit physique, sexuelle ou psychologique. Chaque femme mérite respect et sécurité. </p>
+                </div>
+            </section>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="text-center mb-12">
+        <h2 class="text-5xl font-bold text-yellow-400">Comment Agir ? </h2>
+        <p class="text-xl text-black mt-4 font-bold">Découvrez des actions concrètes pour soutenir la cause des droits
+            des femmes.</p>
+    </div>
+
+
+    <!-- Section 1 : Sensibiliser -->
+    <section class="bg-gray-100 h-auto pb-10">
+        <h2 class="text-4xl font-bold text-black mb-8 pt-8 text-center"> Sensibiliser</h2>
+        <div class="grid grid-cols-2  gap-12 w-[70%] mx-auto ">
+            <!-- Ressources -->
+            <div class="bg-black p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-bold text-yellow-400 mb-2">Partager des ressources</h3>
+                <ul class="list-disc list-inside text-white mt-4">
+                    <li>Guides, brochures et affiches téléchargeables</li>
+                    <li>Vidéos et podcasts éducatifs</li>
+                    <li>Témoignages et articles inspirants</li>
+                </ul>
+            </div>
+
+            <!-- Campagnes en ligne -->
+            <div class="bg-black p-6 rounded-lg shadow-md">
+                <h3 class="text-2xl font-bold text-yellow-400 mb-2">Participer à des campagnes en ligne</h3>
+                <ul class="list-disc list-inside text-white mt-4">
+                    <li>Partager des hashtags sur les réseaux sociaux</li>
+                    <li>Créer du contenu engagé (articles, vidéos, infographies)</li>
+                    <li>Utiliser des filtres et badges de soutien sur son profil</li>
+                </ul>
+            </div>
         </div>
-        <div class="p-4 border rounded shadow">
-          <a href="https://www.hrw.org/fr" class="text-blue-500 underline">Human Rights Watch</a>
-          <p>Informez-vous et sensibilisez sur les violations des droits des femmes.</p>
-        </div>
-        <div class="p-4 border rounded shadow">
-          <a href="https://www.unwomen.org/fr" class="text-blue-500 underline">ONU Femmes</a>
-          <p>Participez à des initiatives globales pour l'égalité des sexes.</p>
-        </div>
-        <div class="p-4 border rounded shadow">
-          <a href="https://www.plan-international.org/fr/egalite-pour-les-filles" class="text-blue-500 underline">Plan International</a>
-          <p>Soutenez des projets pour l'éducation et l'autonomisation des filles.</p>
-        </div>
-        <div class="p-4 border rounded shadow">
-          <a href="https://www.globalfundforwomen.org/" class="text-blue-500 underline">Global Fund for Women</a>
-          <p>Contribuez à des fonds pour soutenir les droits des femmes à travers le monde.</p>
-        </div>
-      </div>
-      <p class="mt-4">
-        Ces organisations offrent des ressources et des opportunités pour s'impliquer activement dans la défense des droits des femmes. 
-        Que ce soit par le bénévolat, les dons ou la sensibilisation, chaque action compte.
-      </p>
     </section>
-  </body>
+
+    <!-- Section 2 : Défendre les droits -->
+
+    <section class="bg-gray-100 pb-10">
+        <div class="w-[75%] mx-auto">
+            <h2 class="text-4xl font-bold text-black mb-8 pt-8 text-center"> Défendre les droits</h2>
+            <div class="grid grid-cols-3 gap-6">
+                <!-- Pétitions -->
+                <div class="bg-black p-6 rounded-lg shadow-md ">
+                    <h3 class="text-2xl font-bold text-yellow-400 mb-4">Signer des pétitions</h3>
+                    <ul class="list-disc list-inside text-white">
+                        <li class="mb-4"><strong>Pétition pour l'égalité salariale</strong> : Exigez des mesures concrètes pour
+                            réduire l'écart de rémunération entre les sexes.</li>
+                        <li class="mb-4"><strong>Pétition contre les violences faites aux femmes</strong> : Soutenez des lois plus
+                            strictes pour protéger les victimes.</li>
+                        <li class="mb-8"><strong>Pétition pour l'accès à l'éducation</strong> : Défendez le droit à l'éducation pour
+                            toutes les filles dans le monde.</li>
+                    </ul>
+                    <a href="#signer" class="text-black font-bold p-2 rounded-lg bg-yellow-400 ">Voir toutes les pétitions en cours</a>
+                </div>
+
+                <!-- Associations -->
+                <div class="bg-black p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-yellow-400 mb-4">S'engager localement</h3>
+                    <ul class="list-disc list-inside text-white">
+                        <li class="mb-4"><strong>Rejoignez des groupes de plaidoyer</strong> : Participez à des actions locales pour
+                            faire entendre votre voix.</li>
+                        <li class="mb-4"><strong>Devenez bénévole</strong> : Aidez à organiser des événements de sensibilisation ou à
+                            distribuer des ressources.</li>
+                        <li class="mb-8"><strong>Créez votre propre initiative</strong> : Lancez un projet dans votre communauté pour
+                            soutenir les droits des femmes.</li>
+                        
+                        
+                    </ul>
+                    <a href="#sengager" class="text-black font-bold p-2 rounded-lg bg-yellow-400">Découvrez comment vous impliquer</a>
+                </div>
+
+                <!-- Interpeller les décideurs -->
+                <div class="bg-black p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-bold text-yellow-400 mb-4">Interpeller les décideurs</h3>
+                    <ul class="list-disc list-inside text-white">
+                        <li class="mb-4"><strong>Envoyez des lettres aux élus</strong> : Utilisez nos modèles pour demander des
+                            actions concrètes.</li>
+                        <li class="mb-4"><strong>Participez à des consultations publiques</strong> : Faites entendre votre voix lors
+                            des débats politiques.</li>
+                        <li class="mb-12"><strong>Organisez des rencontres</strong> : Rencontrez vos représentants locaux pour
+                            discuter des priorités.</li>
+                        
+                    </ul>
+                    <a href="#agir" class="text-black font-bold p-2 rounded-lg bg-yellow-400">Téléchargez nos ressources pour agir</a>
+
+                </div>
+            </div>
+    </section>
+
+
+
+
+    <!-- Section 3 : Protéger et Aider -->
+    <section class="bg-gray-100 pb-10">
+        <div class="w-[75%] mx-auto">
+            
+                <h2 class="text-4xl font-bold text-black mb-8 pt-8 text-center"> Protéger et Aider</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Numéros d'urgence -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-bold text-yellow-500 mb-2">Numéros d’urgence et contacts utiles</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <!-- Carte Police -->
+                            <div class="bg-white p-6 rounded-lg shadow-md flex items-center">
+                                <span class="text-4xl text-yellow-500 mr-4">&#x1F4DE;</span>
+                                <div>
+                                    <h3 class="text-xl font-bold text-black">Police</h3>
+                                    <p class="text-gray-700 text-lg font-semibold"> <strong>17</strong></p>
+                                </div>
+                            </div>
+                        
+                            <!-- Carte Pompiers -->
+                            <div class="bg-white p-6 rounded-lg shadow-md flex items-center">
+                                <span class="text-4xl text-yellow-500 mr-4">&#x1F4DE;</span>
+                                <div>
+                                    <h3 class="text-xl font-bold text-black">Pompiers</h3>
+                                    <p class="text-gray-700 text-lg font-semibold"> <strong>18</strong></p>
+                                </div>
+                            </div>
+                        
+                            <!-- Carte Urgences SMS -->
+                            <div class="bg-white p-6 rounded-lg shadow-md flex items-center">
+                                <span class="text-4xl text-yellow-500 mr-4">&#x1F4DE;</span>
+                                <div>
+                                    <h3 class="text-xl font-bold text-black">Urgences par SMS</h3>
+                                    <p class="text-gray-700 text-lg font-semibold"> <strong>114</strong></p>
+                                </div>
+                            </div>
+                        
+                            <!-- Carte Violences Femmes Info -->
+                            <div class="bg-white p-6 rounded-lg shadow-md flex items-center">
+                                <span class="text-4xl text-yellow-500 mr-4">&#x1F4DE;</span>
+                                <div>
+                                    <h3 class="text-xl font-bold text-black">Violences Femmes Info</h3>
+                                    <p class="text-gray-700 text-lg font-semibold"> <strong>3919</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+        
+                    <!-- Formulaire de signalement -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-yellow-500  mb-2">Signaler une situation</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label class="block text-gray-700">Votre message</label>
+                                <textarea class="w-full p-2 border border-gray-300 rounded-lg" rows="4"
+                                    placeholder="Décrivez la situation..."></textarea>
+                            </div>
+                            <div class="mb-4">
+                                <label class="flex items-center">
+                                    <input type="checkbox" class="mr-2">
+                                    <span class="text-gray-700">Signaler anonymement</span>
+                                </label>
+                            </div>
+                            <button type="submit"
+                                class="bg-yellow-400 text-black font-bold px-6 py-2 rounded-lg hover:bg-black hover:text-white">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+        
+                <!-- Conseils -->
+                <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Conseils pour les victimes -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-yellow-500  mb-2">Conseils pour les victimes</h3>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Contactez les numéros d'urgence.</li>
+                            <li>Cherchez un lieu sûr.</li>
+                            <li>Parlez à une personne de confiance.</li>
+                            <li>Conservez les preuves (photos, messages).</li>
+                        </ul>
+                    </div>
+        
+                    <!-- Conseils pour les témoins -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-yellow-500  mb-2">Conseils pour les témoins</h3>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Ne restez pas indifférent.</li>
+                            <li>Appelez les secours si nécessaire.</li>
+                            <li>Proposez votre aide à la victime.</li>
+                            <li>Signalez la situation anonymement si besoin.</li>
+                        </ul>
+                    </div>
+                </div>
+          
+        
+            </div>
+        </div>
+    </section>
+
+    <!-- Boutons d'action -->
+    <section class="bg-black">
+        <div class="w-[75%] mx-auto pt-12 pb-12">
+            
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-yellow-400">Passer à l’Action </h2>
+                    <p class="text-2xl text-yellow-400 mt-2">Découvrez des moyens concrets pour soutenir la cause des
+                        droits des femmes.</p>
+                </div>
+                <div class="grid  grid-cols-3 gap-6">
+                    <!-- Bouton 1 : Je m’engage -->
+                    <a href="#formulaire"
+                        class=" text-white px-6 py-4 rounded-lg  transition duration-300 hover:bg-yellow-400 text-center hover:text-[#60241e]">
+                        <span class="block text-4xl ] font-bold">Je m’engage</span>
+                        <span class="block text-2xl">Devenir membre/bénévole</span>
+                    </a>
+
+                    <!-- Bouton 1 : Je m’engage -->
+                    <a href="#formulaire"
+                        class=" text-white px-6 py-4 rounded-lg  transition duration-300 hover:bg-yellow-400 text-center hover:text-[#60241e]">
+                        <span class="block text-4xl ] font-bold">Je veux aider</span>
+                        <span class="block text-2xl">Actions concrètes</span>
+                    </a>
+
+                    <!-- Bouton 1 : Je m’engage -->
+                    <a href="#formulaire"
+                        class=" text-white px-6 py-4 rounded-lg  transition duration-300 hover:bg-yellow-400 text-center hover:text-[#60241e]">
+                        <span class="block text-4xl ] font-bold">Besoin d’aide </span>
+                        <span class="block text-2xl">Devenir membre/bénévole</span>
+                    </a>
+        
+                  
+                </div>
+            
+        
+          
+        
+        
+        </div>
+    </section>
+</body>
+
 </html>
